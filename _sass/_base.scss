@@ -260,6 +260,7 @@ blockquote {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 
+    font-weight: 400;
     &:hover {
       color: var(--global-hover-color);
     }
@@ -504,6 +505,8 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+
+  font-weight: 400;
 }
 
 .post-list {
@@ -517,10 +520,17 @@ footer.sticky-bottom {
     padding-top: 2rem;
     padding-bottom: 2rem;
 
+    .post-description {
+      font-weight: 400;
+      font-size: .9rem;
+      color: #747373;
+    }
+
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
+      font-weight: 400;
     }
 
     .post-tags {
@@ -528,6 +538,7 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
+      font-weight: 400;
     }
 
     a {
@@ -553,6 +564,8 @@ footer.sticky-bottom {
       &:hover {
         color: $black-color;
       }
+
+      font-weight: 400;
     }
 
     &.active .page-link {
@@ -562,6 +575,8 @@ footer.sticky-bottom {
       &:hover {
         background-color: var(--global-theme-color);
       }
+
+      font-weight: 400;
     }
   }
 }
@@ -837,10 +852,22 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  .post-content {
+
+    h1, h2, h3 {
+      font-weight: 500;
+    }
+  
+    font-weight: 400;
+  
+    text-align: justify;
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
+    font-weight: 400;
   }
 
   .post-tags {
@@ -848,6 +875,7 @@ html.transition *:after {
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
+    font-weight: 400;
 
     a {
       color: var(--global-text-color-light);

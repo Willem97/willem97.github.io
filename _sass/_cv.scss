@@ -63,8 +63,16 @@ table.institution {
   margin-bottom: 1rem;
 }
 
+td.institution {
+  font-weight: 500;
+}
+
 td.department {
   font-size: 0.8rem;
+}
+
+td.company {
+  font-weight: 500;
 }
 
 div.container-links {
@@ -213,3 +221,12 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+.cv-content-description {
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.cv-map-content-value {
+  font-weight: 400;
+}

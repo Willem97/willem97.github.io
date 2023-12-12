@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Add tabs for jekyll
+title: Add tabs for Jekyll theme
 date: 2023-09-11 15:09:00
-description: Add code tabs for jekyll themem.
+description: Add code tabs for jekyll themem al-folio.
 tags: tutorial
 categories: tutorial
 featured: false
@@ -78,35 +78,48 @@ Copy the content of [this file](https://raw.githubusercontent.com/Ovski4/jekyll-
 
 ## Demo
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/tabs.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+{% tabs test-tabs-jekyll %}
 
-{% tabs log %}
+{% tab test-tabs-jekyll Python %}
 
-{% tab log Table1 %}
-
-table 1
+```python
+print("Hello World!")
+```
 
 {% endtab %}
 
-{% tab log Table3 %}
+{% tab test-tabs-jekyll Go %}
 
-table 2
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World!")
+}
+```
 
 {% endtab %}
 
-{% tab log Table3 %}
+{% tab test-tabs-jekyll Rust %}
 
-table 3
+```rust
+fn main() {
+    println!("Hello World!");
+}
+```
 
 {% endtab %}
 
 {% endtabs %}
 
+<div class="l-page" style="text-align:center;">
+  {% include figure.html path="assets/img/blog/tabs.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  <p>code tabs demo</p>
+</div>
+
 ## Reference
 
--   https://github.com/Ovski4/jekyll-tabs
--   https://github.com/awslabs/aws-ddk
+-   <i class="fa-brands fa-github gh-icon"></i> [Ovski4/jekyll-tabs](https://github.com/Ovski4/jekyll-tabs)
+-   <i class="fa-brands fa-github gh-icon"></i> [awslabs/aws-ddk](https://github.com/awslabs/aws-ddk)

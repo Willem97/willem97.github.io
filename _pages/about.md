@@ -7,10 +7,10 @@ subtitle: <a href='#'>SWE</a> | SenseTime.
 
 profile:
     align: right
-    image: prof_pic.jpg
+    image: hk-2017.jpg
     image_circular: false # crops the image to make it circular
     more_info: >
-        <p>ShenZhen, China</p>
+        <p>2017, HongKong SAR, China</p>
     # more_info: >
     #   <p>555 your office number</p>
     #   <p>123 your address street</p>

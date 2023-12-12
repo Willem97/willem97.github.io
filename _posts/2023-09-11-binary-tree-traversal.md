@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Binary Tree different traversal way
+title: Binary Tree different traversal ways
 date: 2023-09-11 15:09:00
-description: Binary Tree preorder, inorder, postorder, levelorder.
+description: Binary Tree preorder, inorder, postorder and levelorder.
 tags: code
 categories: algo
 featured: false
